@@ -15,10 +15,7 @@
 	<hr />
 	<form action="mvc?logica=AdicionaContatoLogic" method="post"  >
 		<label for="nome">Nome:</label> <input type="text" name="nome"
-			id="nome" /><br /> <label for="email">Email:</label><input
-			type="text" name="email" id="email" /><br /> <label for="endereco">Endere&ccedil;o:</label>
-		<input type="text" name="endereco" id="endereco" /><br />
-		 <label for="dataNascimento">Data de Nascimento:</label>
+			id="nome" /><br /> 
 		 
 		 <caelum:campoData id="dataNascimento" />
 		<br /> <input type="submit" value="Gravar"/>
